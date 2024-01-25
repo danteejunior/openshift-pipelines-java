@@ -8,7 +8,7 @@ spec:
       description: name of the deployment to be patched
       name: deployment-name
       type: string
-    - default: 'https://github.com/msoares94/openshift-pipelines-hello-world-with-java.git'
+    - default: 'https://github.com/danteejunior/openshift-pipelines-java.git'
       description: url of the git repo for the code of deployment
       name: git-url
       type: string
@@ -17,7 +17,7 @@ spec:
       name: git-revision
       type: string
     - default: >-
-        image-registry.openshift-image-registry.svc:5000/ibge/app
+        image-registry.openshift-image-registry.svc:5000/demo-pipelines/app
       description: image to be build from the code
       name: IMAGE
       type: string
